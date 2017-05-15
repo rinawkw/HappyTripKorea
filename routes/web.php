@@ -17,6 +17,9 @@ Route::get('/', function () {
 Route::get('/home/lihatpost', function () {
     return view('/admin/lihatpost');
 });
+Route::get('/home/tambahpost', function () {
+    return view('/admin/createpost');
+});
 
 Auth::routes();
 

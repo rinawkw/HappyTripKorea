@@ -28,8 +28,8 @@
   		{!! Form::close() !!}
 	</div>
 	<div class="container">
-  		<h2>Table</h2>	                                                                                      
-  		<div class="table-responsive">          
+  		<h2>Table</h2>
+  		<div class="table-responsive">
   			<table class="table">
     			<thead>
       				<tr>
@@ -50,7 +50,7 @@
 			        	<button type="button" class="btn btn-primary">Edit</button>
 			        	<button type="button" class="btn btn-danger">Hapus</button>
 			        </td>
-			       
+
       			</tr>
     			</tbody>
  			 </table>
