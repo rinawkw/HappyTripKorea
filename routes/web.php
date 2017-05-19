@@ -19,15 +19,23 @@ Route::get('/', function () {
 Route::get('/blog', function () {
     return view('blog.index');
 });
-//=======
+
 Route::get('/home/lihatpost', function () {
     return view('/admin/lihatpost');
 });
+
 Route::get('/home/tambahpost', function () {
     return view('/admin/createpost');
+});
+
+Route::get('/contact', function () {
+	return view('/contact/');
+});
+
+Route::get('/about', function () {
+	return view('/about/');
 });
 
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
-//>>>>>>> cc554d19fff17dd1d7669b4c0028684912407e09
