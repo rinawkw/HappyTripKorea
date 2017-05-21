@@ -7,8 +7,8 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="images/favicon.ico">
-    <title>Infra Magazine</title>
+    <link rel="icon" href="images/fav3.png">
+    <title>Happy Trip Korea</title>
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/font-awesome.css" rel="stylesheet">
@@ -47,10 +47,10 @@
     <!-- end topbar -->
     <!-- header (logo section) -->
     <header class="header">
-        <div class="container">
-            <div class="logo"><a href="index.html"><img id="logo" src="images/logo.png" alt="logo"></a></div>
-            <!-- <h1>Haute Couture</h1>
-                <div class="description">black is new red</div> -->
+        <div class="container" style="width: 200px; display: block; margin-left: auto; margin-right: auto">
+            <div style="width: 150px;" class="logo"><a href="index.html"><img id="logo" src="images/fav2.png" alt="logo"></a></div>
+           {{--<h1>Haute Couture</h1>--}}
+                {{--<div class="description">black is new red</div>--}}
             <div class="ad-728x90"><a href="index.html"><img src="images/ad728x90.png" alt="ad728x90"></a></div>
         </div>
     </header>
@@ -68,11 +68,11 @@
                     <a href="#"><i class="fa fa-pencil-square-o"></i> Blog </a><span class="sub_menu_toggle"></span>
                 </li>
                 <li>
-                    <a href="#"><i class="fa fa-info-circle "></i> Tentang Kami </a><span
+                    <a href="/about"><i class="fa fa-info-circle "></i> Tentang Kami </a><span
                             class="sub_menu_toggle"></span>
                 </li>
                 <li>
-                    <a href="#"><i class="fa fa-phone"></i> Hubungi </a><span class="sub_menu_toggle"></span>
+                    <a href="/contact"><i class="fa fa-phone"></i> Hubungi </a><span class="sub_menu_toggle"></span>
                 </li>
             </ul>
         </div>
