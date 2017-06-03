@@ -65,4 +65,9 @@ class BlogController extends Controller
 		}
 		return redirect('admin/lihatpost');
 	}
+	public function delete($id){
+		$blog = blog::findOrFail($id);
+        $blog->delete();
+        return redirect('admin/lihatpost');
+	}
 }

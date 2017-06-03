@@ -38,9 +38,10 @@
   			</thead>
   			<tbody>
     			<tr>
+          <?php $no=1?>
 		       @foreach($blog as $key => $value)
             <tr>
-              <td>{{ $value->blog_id }}</td>
+              <td>{{$no++}}</td>
               <td>{{ $value->blog_title }}</td>
               <td>{{ $value->created_at }}</td>
               <td><a href="{{Url('/admin/editpost/'.$value->blog_id)}}"><button type="button" class="btn btn-default btn-sm"/>Edit</button></a>
