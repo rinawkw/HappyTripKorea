@@ -11,6 +11,7 @@ class BlogController extends Controller
     public function index()
     {
         $blog = blog::all();
+//        dd($blog[0]);
         return view('blog.index',compact('blog'));
     }
     public function tambah()
