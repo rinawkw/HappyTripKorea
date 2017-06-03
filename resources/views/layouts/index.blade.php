@@ -62,10 +62,10 @@
             <input type="checkbox" id="show-menu">
             <ul class="menu" id="main-mobile-menu">
                 <li>
-                    <a href="index.html"><i class="fa fa-home"></i> Home </a><span class="sub_menu_toggle"></span>
+                    <a href="/index"><i class="fa fa-home"></i> Home </a><span class="sub_menu_toggle"></span>
                 </li>
                 <li>
-                    <a href="#"><i class="fa fa-pencil-square-o"></i> Blog </a><span class="sub_menu_toggle"></span>
+                    <a href="/blog"><i class="fa fa-pencil-square-o"></i> Blog </a><span class="sub_menu_toggle"></span>
                 </li>
                 <li>
                     <a href="/about"><i class="fa fa-info-circle "></i> Tentang Kami </a><span
