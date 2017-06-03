@@ -11,6 +11,7 @@ class BlogController extends Controller
     public function index()
     {
         $blog = blog::all();
+//        dd($blog[0]);
         return view('blog.index',compact('blog'));
     }
     public function tambah()
@@ -30,7 +31,8 @@ class BlogController extends Controller
 		$blog = new blog();
 		$blog->blog_title = $request->input('title-blog');
 		$blog->blog_content = $request->input('content-blog');
-		$blog->blog_picture= "";
+		$imageName = time().'.'.$request->file('blog_picture')->getClientOriginalExtension();
+		$blog->blog_picture= $imageName;
 		$blog->save();
 		return redirect('admin/lihatpost');
 	}
@@ -39,6 +41,10 @@ class BlogController extends Controller
 			'blog_title' => $request->input('title-blog'),
 			'blog_content' => $request->input('content-blog'),
 		]);
+		
+		$request->file('blog_picture')->move(
+			base_path() . '/public/images/blog/', $imageName
+		);
 		return redirect('admin/lihatpost');
 	}
 }

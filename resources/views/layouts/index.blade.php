@@ -159,13 +159,17 @@
                         <!-- article post -->
                         <article class="widget-post">
                             <div class="post-image">
-                                <a href="post.html"><img src="images/demo/1200x800-21.jpg" alt=""></a>
+                                <a href="post.html"><img src="<?php echo $blog['' . $blog->count()-1 . '']->blog_picture ?>" alt=""></a>
                             </div>
                             <div class="post-body">
-                                <h2><a href="post.html">WHAT TO WEAR IN THE LONDONS</a></h2>
+                                <h2><a href="post.html"><?php echo $blog['' . $blog->count()-1 . '']->blog_title ?></a></h2>
                                 <div class="post-meta">
-                                    <span><i class="fa fa-clock-o"></i> 27. april 2015</span> <span><a href="post.html"><i
-                                                    class="fa fa-comments"></i> 23</a></span>
+                                    <?php
+                                    $y = substr($blog['' . $blog->count()-1 . '']->created_at, 0, 4);
+                                    $m = substr($blog['' . $blog->count()-1 . '']->created_at, 5, 2);
+                                    $d = substr($blog['' . $blog->count()-1 . '']->created_at, 8, 2);
+                                    ?>
+                                    <span><i class="fa fa-clock-o"></i> {{$d}}/{{$m}}/{{$y}}</span>
                                 </div>
                             </div>
                         </article>
@@ -173,14 +177,18 @@
                         <!-- article post -->
                         <article class="widget-post">
                             <div class="post-image">
-                                <a href="post.html"><img src="images/demo/1200x800-7.jpg" alt=""></a>
+                                <a href="post.html"><img src="<?php echo $blog['' . $blog->count()-2 . '']->blog_picture ?>" alt=""></a>
                             </div>
                             <div class="post-body">
-                                <h2><a href="post.html">THE 8 MOST CHARMING PLACES TO STAY ON YOUR CUBAN VACATION</a>
+                                <h2><a href="post.html"><?php echo $blog['' . $blog->count()-2 . '']->blog_title ?></a>
                                 </h2>
                                 <div class="post-meta">
-                                    <span><i class="fa fa-clock-o"></i> 27. april 2015</span> <span><a href="post.html"><i
-                                                    class="fa fa-comments"></i> 23</a></span>
+                                    <?php
+                                    $y = substr($blog['' . $blog->count()-2 . '']->created_at, 0, 4);
+                                    $m = substr($blog['' . $blog->count()-2 . '']->created_at, 5, 2);
+                                    $d = substr($blog['' . $blog->count()-2 . '']->created_at, 8, 2);
+                                    ?>
+                                    <span><i class="fa fa-clock-o"></i> {{$d}}/{{$m}}/{{$y}}</span>
                                 </div>
                             </div>
                         </article>
@@ -188,13 +196,17 @@
                         <!-- article post -->
                         <article class="widget-post">
                             <div class="post-image">
-                                <a href="post.html"><img src="images/demo/1200x800-8.jpg" alt=""></a>
+                                <a href="post.html"><img src="<?php echo $blog['' . $blog->count()-3 . '']->blog_picture ?>" alt=""></a>
                             </div>
                             <div class="post-body">
-                                <h2><a href="post.html">Want to visit 'another planet'? Here you go</a></h2>
+                                <h2><a href="post.html"><?php echo $blog['' . $blog->count()-3 . '']->blog_title ?></a></h2>
                                 <div class="post-meta">
-                                    <span><i class="fa fa-clock-o"></i> 27. april 2015</span> <span><a href="post.html"><i
-                                                    class="fa fa-comments"></i> 23</a></span>
+                                    <?php
+                                    $y = substr($blog['' . $blog->count()-3 . '']->created_at, 0, 4);
+                                    $m = substr($blog['' . $blog->count()-3 . '']->created_at, 5, 2);
+                                    $d = substr($blog['' . $blog->count()-3 . '']->created_at, 8, 2);
+                                    ?>
+                                    <span><i class="fa fa-clock-o"></i> {{$d}}/{{$m}}/{{$y}}</span>
                                 </div>
                             </div>
                         </article>
