@@ -10,30 +10,24 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-
+Auth::routes();
 Route::get('/', function () {
     return view('welcome');
 });
-
-
-Route::resource('blog','BlogController');
-
-Route::get('/home/lihatpost', function () {
-    return view('/admin/lihatpost');
-});
-
-Route::get('/home/tambahpost', function () {
-    return view('/admin/createpost');
-});
-
 Route::get('/contact', function () {
 	return view('contact.index');
 });
-
 Route::get('/about', function () {
 	return view('about.index');
 });
 
-Auth::routes();
+Route::get('/blog', function () {
+    return view('blog.index');
+});
 
+/* Admin Routes*/
+// Route::resource('blog','BlogController');
 Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/admin/lihatpost','BlogController@lihat');
+Route::get('/admin/tambahpost','BlogController@tambah');
+Route::post('/admin/insertpost','BlogController@submitTambah');
