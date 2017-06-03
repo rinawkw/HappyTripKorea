@@ -26,7 +26,7 @@ Route::get('/blog', function () {
 });
 
 /* Admin Routes*/
-// Route::resource('blog','BlogController');
+Route::resource('blog','BlogController');
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/admin/lihatpost','BlogController@lihat');
 Route::get('/admin/tambahpost','BlogController@tambah');
