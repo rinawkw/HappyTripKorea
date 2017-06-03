@@ -11,12 +11,11 @@
 <div class="panel panel-default"><div class="panel-body">
 <h4><i class="fa fa-home"></i> Tabel Posting</h4><hr>
 <div class=row><div class="col-md-6">
-     <a href="/dosen/create" class="btn btn-primary">
+     <a href="{{Url('/admin/tambahpost')}}" class="btn btn-primary">
        <i class="fa fa-plus-circle"></i> Tambah Posting</a></div>
 	<div class="col-md-2"> </div>
 <!-- Form Pencarian -->
  	<div class="col-md-4">
- 		{!! Form::open(['method'=>'GET','url'=>'caridosen','role'=>'search'])  !!}
  			<div class="input-group custom-search-form">
   				<input type="text" class="form-control" name="search" placeholder="Search...">
    				<span class="input-group-btn">
@@ -25,7 +24,6 @@
   					</span>
   				</span>
  			</div>
-  		{!! Form::close() !!}
 	</div>
 	<div class="container">
   		<h2>Table</h2>
@@ -35,22 +33,19 @@
       				<tr>
 				        <th>#</th>
 				        <th>Judul</th>
-				        <th>Kategori</th>
 				        <th>Tanggal</th>
       				</tr>
     			</thead>
     			<tbody>
       			<tr>
-			        <td>1</td>
-			        <td>Seruan seruan bareng oppa</td>
-			        <td>Traveling</td>
-			        <td>2017/03/12</td>
-			        <td>
-			        	<button type="button" class="btn btn-default">Lihat</button>
-			        	<button type="button" class="btn btn-primary">Edit</button>
-			        	<button type="button" class="btn btn-danger">Hapus</button>
-			        </td>
-
+			       @foreach($blog as $key => $value)
+                  <tr>
+                    <td class="text-center">{{ $value->blog_id }}</td>
+                    <td>{{ $value->blog_title }}</td>
+                    <td>{{ $value->created_at }}</td>
+                    <td><a href="{{Url('/admin/detail/'.$value->blog_id)}}"<button type="button" class="btn btn-default btn-sm"/><i class="fa fa-eye"></i> Lihat</button></a></td>
+                  </tr>
+              @endforeach
       			</tr>
     			</tbody>
  			 </table>
