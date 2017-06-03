@@ -16,9 +16,7 @@ Route::get('/', function () {
 });
 
 
-Route::get('/blog', function () {
-    return view('blog.index');
-});
+Route::resource('blog','BlogController');
 
 Route::get('/home/lihatpost', function () {
     return view('/admin/lihatpost');

@@ -15,18 +15,23 @@
                                 <div class="col-md-6 col-sm-6">
                                     <div class="grid-post grid-gutter">
                                         <div class="post-image">
-                                            <div class="review"><span class="score">80</span><span class="percent">%</span></div>
+                                            <div class="review"><span class="score">80</span><span
+                                                        class="percent">%</span></div>
                                             <div class="post-title">
                                                 <div class="post-cat2"><span>Traveling</span></div>
-                                                <h2><a href="post.html">VIRGINIA SMITH'S GUIDE TO THE HUDSON VALLEY</a></h2>
+                                                <h2><a href="post.html">VIRGINIA SMITH'S GUIDE TO THE HUDSON VALLEY</a>
+                                                </h2>
                                             </div>
                                             <a href="post.html"><img src="images/demo/1200x800-20.jpg" alt=""></a>
                                         </div>
                                         <div class="post-body">
                                             <div class="post-meta">
-                                                <span>27. april 2015</span> <span><a href="post.html">23 comments</a></span> <span>123 views</span>
+                                                <span>27. april 2015</span> <span><a
+                                                            href="post.html">23 comments</a></span>
+                                                <span>123 views</span>
                                             </div>
-                                            <p>More from Bermuda! This small island is packed with so many different places to see and visit. I knew I was going to have a lot of cool...</p>
+                                            <p>More from Bermuda! This small island is packed with so many different
+                                                places to see and visit. I knew I was going to have a lot of cool...</p>
                                         </div>
                                         <div class="read-more"><a href="post.html">read more</a></div>
                                     </div>
@@ -42,162 +47,12 @@
                                         </div>
                                         <div class="post-body">
                                             <div class="post-meta">
-                                                <span>27. april 2015</span> <span><a href="post.html">23 comments</a></span> <span>123 views</span>
+                                                <span>27. april 2015</span> <span><a
+                                                            href="post.html">23 comments</a></span>
+                                                <span>123 views</span>
                                             </div>
-                                            <p>Proin eu sapien non tortor mattis auctor ac sit amet justo. Aliquam pellentesque odio quis eleifend aliquet. In id sodales dui...</p>
-                                        </div>
-                                        <div class="read-more"><a href="post.html">read more</a></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-6 col-sm-6">
-                                    <div class="grid-post grid-gutter">
-                                        <div class="post-image">
-                                            <div class="post-title">
-                                                <div class="post-cat2"><span>Fashion</span></div>
-                                                <h2><a href="post.html">Postcard from Cannes: Have We Found the Winner Yet?</a></h2>
-                                            </div>
-                                            <a href="post.html"><img src="images/demo/1200x800-11.jpg" alt=""></a>
-                                        </div>
-                                        <div class="post-body">
-                                            <div class="post-meta">
-                                                <span>27. april 2015</span> <span><a href="post.html">23 comments</a></span> <span>123 views</span>
-                                            </div>
-                                            <p>Aliquam venenatis aliquet tortor, non blandit sapien aliquam eget. Sed in nulla et arcu commodo vehicula vitae et ante. Suspendisse ut...</p>
-                                        </div>
-                                        <div class="read-more"><a href="post.html">read more</a></div>
-                                    </div>
-                                </div>
-                                <div class="col-md-6 col-sm-6">
-                                    <div class="grid-post grid-gutter">
-                                        <div class="post-image">
-                                            <div class="post-title">
-                                                <div class="post-cat2"><span>Fashion</span></div>
-                                                <h2><a href="post.html">The View From a Peaceful Villa I Visited</a></h2>
-                                            </div>
-                                            <a href="post.html"><img src="images/demo/1200x800-12.jpg" alt=""></a>
-                                        </div>
-                                        <div class="post-body">
-                                            <div class="post-meta">
-                                                <span>27. april 2015</span> <span><a href="post.html">23 comments</a></span> <span>123 views</span>
-                                            </div>
-                                            <p>Aliquam venenatis aliquet tortor, non blandit sapien aliquam eget. Sed in nulla et arcu commodo vehicula vitae et ante. Suspendisse ut...</p>
-                                        </div>
-                                        <div class="read-more"><a href="post.html">read more</a></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-6 col-sm-6">
-                                    <div class="grid-post grid-gutter">
-                                        <div class="post-image">
-                                            <div class="post-title">
-                                                <div class="post-cat2"><span>Fashion</span></div>
-                                                <h2><a href="post.html">Postcard from Cannes: Have We Found the Winner Yet?</a></h2>
-                                            </div>
-                                            <a href="post.html"><img src="images/demo/1200x800-18.jpg" alt=""></a>
-                                        </div>
-                                        <div class="post-body">
-                                            <div class="post-meta">
-                                                <span>27. april 2015</span> <span><a href="post.html">23 comments</a></span> <span>123 views</span>
-                                            </div>
-                                            <p>Aliquam venenatis aliquet tortor, non blandit sapien aliquam eget. Sed in nulla et arcu commodo vehicula vitae et ante. Suspendisse ut...</p>
-                                        </div>
-                                        <div class="read-more"><a href="post.html">read more</a></div>
-                                    </div>
-                                </div>
-                                <div class="col-md-6 col-sm-6">
-                                    <div class="grid-post grid-gutter">
-                                        <div class="post-image">
-                                            <div class="post-title">
-                                                <div class="post-cat2"><span>Fashion</span></div>
-                                                <h2><a href="post.html">The View From a Peaceful Villa I Visited</a></h2>
-                                            </div>
-                                            <a href="post.html"><img src="images/demo/1200x800-19.jpg" alt=""></a>
-                                        </div>
-                                        <div class="post-body">
-                                            <div class="post-meta">
-                                                <span>27. april 2015</span> <span><a href="post.html">23 comments</a></span> <span>123 views</span>
-                                            </div>
-                                            <p>Aliquam venenatis aliquet tortor, non blandit sapien aliquam eget. Sed in nulla et arcu commodo vehicula vitae et ante. Suspendisse ut...</p>
-                                        </div>
-                                        <div class="read-more"><a href="post.html">read more</a></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-6 col-sm-6">
-                                    <div class="grid-post grid-gutter">
-                                        <div class="post-image">
-                                            <div class="review"><span class="score">80</span><span class="percent">%</span></div>
-                                            <div class="post-title">
-                                                <div class="post-cat2"><span>Fashion</span></div>
-                                                <h2><a href="post.html">Make Stories Come Alive with Jodi Harvey-Brown Book</a></h2>
-                                            </div>
-                                            <a href="post.html"><img src="images/demo/1200x800-20.jpg" alt=""></a>
-                                        </div>
-                                        <div class="post-body">
-                                            <div class="post-meta">
-                                                <span>27. april 2015</span> <span><a href="post.html">23 comments</a></span> <span>123 views</span>
-                                            </div>
-                                            <p>Aliquam venenatis aliquet tortor, non blandit sapien aliquam eget. Sed in nulla et arcu commodo vehicula vitae et ante. Suspendisse ut...</p>
-                                        </div>
-                                        <div class="read-more"><a href="post.html">read more</a></div>
-                                    </div>
-                                </div>
-                                <div class="col-md-6 col-sm-6">
-                                    <div class="grid-post grid-gutter">
-                                        <div class="post-image">
-                                            <div class="post-title">
-                                                <div class="post-cat2"><span>Automotive</span></div>
-                                                <h2><a href="post.html">Pernille Teisbaek Hits the Road in Style with Cash & Rocket</a></h2>
-                                            </div>
-                                            <a href="post.html"><img src="images/demo/1200x800-17.jpg" alt=""></a>
-                                        </div>
-                                        <div class="post-body">
-                                            <div class="post-meta">
-                                                <span>27. april 2015</span> <span><a href="post.html">23 comments</a></span> <span>123 views</span>
-                                            </div>
-                                            <p>Proin eu sapien non tortor mattis auctor ac sit amet justo. Aliquam pellentesque odio quis eleifend aliquet. In id sodales dui...</p>
-                                        </div>
-                                        <div class="read-more"><a href="post.html">read more</a></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-6 col-sm-6">
-                                    <div class="grid-post grid-gutter">
-                                        <div class="post-image">
-                                            <div class="post-title">
-                                                <div class="post-cat2"><span>Fashion</span></div>
-                                                <h2><a href="post.html">Postcard from Cannes: Have We Found the Winner Yet?</a></h2>
-                                            </div>
-                                            <a href="post.html"><img src="images/demo/1200x800-5.jpg" alt=""></a>
-                                        </div>
-                                        <div class="post-body">
-                                            <div class="post-meta">
-                                                <span>27. april 2015</span> <span><a href="post.html">23 comments</a></span> <span>123 views</span>
-                                            </div>
-                                            <p>Aliquam venenatis aliquet tortor, non blandit sapien aliquam eget. Sed in nulla et arcu commodo vehicula vitae et ante. Suspendisse ut...</p>
-                                        </div>
-                                        <div class="read-more"><a href="post.html">read more</a></div>
-                                    </div>
-                                </div>
-                                <div class="col-md-6 col-sm-6">
-                                    <div class="grid-post grid-gutter">
-                                        <div class="post-image">
-                                            <div class="post-title">
-                                                <div class="post-cat2"><span>Fashion</span></div>
-                                                <h2><a href="post.html">The View From a Peaceful Villa I Visited</a></h2>
-                                            </div>
-                                            <a href="post.html"><img src="images/demo/1200x800-2.jpg" alt=""></a>
-                                        </div>
-                                        <div class="post-body">
-                                            <div class="post-meta">
-                                                <span>27. april 2015</span> <span><a href="post.html">23 comments</a></span> <span>123 views</span>
-                                            </div>
-                                            <p>Aliquam venenatis aliquet tortor, non blandit sapien aliquam eget. Sed in nulla et arcu commodo vehicula vitae et ante. Suspendisse ut...</p>
+                                            <p>Proin eu sapien non tortor mattis auctor ac sit amet justo. Aliquam
+                                                pellentesque odio quis eleifend aliquet. In id sodales dui...</p>
                                         </div>
                                         <div class="read-more"><a href="post.html">read more</a></div>
                                     </div>
@@ -271,22 +126,32 @@
                             <!-- widget advertisement -->
                             <div class="widget-container">
                                 <h4 class="section-title">Advertisement</h4>
-                                <img src="images/banner-300x250.png" alt="" />
+                                <img src="images/banner-300x250.png" alt=""/>
                             </div>
                             <!-- end widget advertisement -->
                             <!-- widget tag cloud -->
                             <div class="widget-container widget_tag_cloud">
                                 <h4 class="section-title">TAGS</h4>
-                                <div class="tag_item"><a href='category.html' title='Fashion'>Fashion</a><span>34</span></div>
-                                <div class="tag_item"><a href='category.html' title='Fashion'>Outfit</a><span>54</span></div>
-                                <div class="tag_item"><a href='category.html' title='Fashion'>Creative</a><span>2</span></div>
-                                <div class="tag_item"><a href='category.html' title='Fashion'>Adventures</a><span>76</span></div>
-                                <div class="tag_item"><a href='category.html' title='Fashion'>Computers</a><span>134</span></div>
-                                <div class="tag_item"><a href='category.html' title='Fashion'>Fashion</a><span>34</span></div>
-                                <div class="tag_item"><a href='category.html' title='Fashion'>Outfit</a><span>4</span></div>
-                                <div class="tag_item"><a href='category.html' title='Fashion'>Creative</a><span>2</span></div>
-                                <div class="tag_item"><a href='category.html' title='Fashion'>Adventures</a><span>67</span></div>
-                                <div class="tag_item"><a href='category.html' title='Fashion'>Computers</a><span>5</span></div>
+                                <div class="tag_item"><a href='category.html' title='Fashion'>Fashion</a><span>34</span>
+                                </div>
+                                <div class="tag_item"><a href='category.html' title='Fashion'>Outfit</a><span>54</span>
+                                </div>
+                                <div class="tag_item"><a href='category.html' title='Fashion'>Creative</a><span>2</span>
+                                </div>
+                                <div class="tag_item"><a href='category.html'
+                                                         title='Fashion'>Adventures</a><span>76</span></div>
+                                <div class="tag_item"><a href='category.html'
+                                                         title='Fashion'>Computers</a><span>134</span></div>
+                                <div class="tag_item"><a href='category.html' title='Fashion'>Fashion</a><span>34</span>
+                                </div>
+                                <div class="tag_item"><a href='category.html' title='Fashion'>Outfit</a><span>4</span>
+                                </div>
+                                <div class="tag_item"><a href='category.html' title='Fashion'>Creative</a><span>2</span>
+                                </div>
+                                <div class="tag_item"><a href='category.html'
+                                                         title='Fashion'>Adventures</a><span>67</span></div>
+                                <div class="tag_item"><a href='category.html'
+                                                         title='Fashion'>Computers</a><span>5</span></div>
                             </div>
                             <!-- end widget tag cloud -->
                             <!-- widget calendar -->
@@ -308,7 +173,9 @@
                                         </thead>
                                         <tfoot>
                                         <tr>
-                                            <td colspan="3" id="prev"><a href="http://orange-themes.com/testiem/2014/01/">&laquo; Jan</a></td>
+                                            <td colspan="3" id="prev"><a
+                                                        href="http://orange-themes.com/testiem/2014/01/">&laquo; Jan</a>
+                                            </td>
                                             <td class="pad">&nbsp;</td>
                                             <td colspan="3" id="next" class="pad">&nbsp;</td>
                                         </tr>
