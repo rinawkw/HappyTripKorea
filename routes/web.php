@@ -21,6 +21,10 @@ Route::get('/about', function () {
 	return view('about.index');
 });
 
+Route::get('/blog', function () {
+    return view('blog.index');
+});
+
 /* Admin Routes*/
 // Route::resource('blog','BlogController');
 Route::get('/home', 'HomeController@index')->name('home');
