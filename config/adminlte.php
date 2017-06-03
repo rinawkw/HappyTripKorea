@@ -138,7 +138,7 @@ return [
             'submenu' => [
                 [
                     'text' => 'Tabel Posting',
-                    'url'  => '/home/lihatpost',
+                    'url'  => '/admin/lihatpost',
                 ],
                 // [
                 //     'text'    => 'Level One',
@@ -166,7 +166,7 @@ return [
                 // ],
                 [
                     'text' => 'Tambah Posting',
-                    'url'  => '#',
+                    'url'  => '/admin/tambahpost',
                 ],
             ],
         ],

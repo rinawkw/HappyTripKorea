@@ -9,15 +9,15 @@
     <div class="box">
       <!-- /.box-header -->
       <div class="box-body pad">
-        {{Form::open()}}
+        {{Form::open(['url'=>'/admin/insertpost'])}}
         <div class="box-body">
         <div class="form-group">
         {{Form::label('title', 'Title')}}
-        {{Form::text('title',null,array('class' => 'form-control', 'placeholder'=>'Title'))}}
+        {{Form::text('title',null,array('class' => 'form-control', 'placeholder'=>'Title', 'name'=>'title-blog'))}}
         </div>
         <div class="form-group">
         {{Form::label('body', 'Content')}}
-        <div id="summernote"><p>Hello Summernote</p></div>
+        <textarea name="content-blog" id="summernote"><p>Hello Summernote</p></textarea>
         </div>
         <div class="form-group">
         {{Form::submit('Publish Post',array('class' => 'btn btn-primary btn-sm'))}} </div>
@@ -29,5 +29,4 @@
 <br>
 </div>
 <br>
-
 @stop
