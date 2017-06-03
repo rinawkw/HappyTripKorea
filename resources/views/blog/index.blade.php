@@ -27,7 +27,7 @@
                                                     </h2>
                                                 </div>
                                                 <a href="post.html"><img
-                                                            src="<?php echo $blog['' . $i . '']->blog_picture ?>"
+                                                            src="images/blog/<?php echo $blog['' . $i . '']->blog_picture ?>"
                                                             alt=""></a>
                                             </div>
                                             <div class="post-body">
@@ -62,7 +62,7 @@
                                                         </h2>
                                                     </div>
                                                     <a href="post.html"><img
-                                                                src="<?php echo $blog['' . $i . '']->blog_picture ?>"
+                                                                src="images/blog/<?php echo $blog['' . $i . '']->blog_picture ?>"
                                                                 alt=""></a>
                                                 </div>
                                                 <div class="post-body">
@@ -98,7 +98,7 @@
                                                         </h2>
                                                     </div>
                                                     <a href="post.html"><img
-                                                                src="<?php echo $blog['' . $i . '']->blog_picture ?>"
+                                                                src="images/blog/<?php echo $blog['' . $i . '']->blog_picture ?>"
                                                                 alt=""></a>
                                                 </div>
                                                 <div class="post-body">
