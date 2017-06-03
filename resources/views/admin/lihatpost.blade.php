@@ -26,20 +26,19 @@
  			</div>
 	</div>
 	<div class="container">
-		<h3>Table</h3>
+		<h3>&nbsp;</h3>
 		<div class="table-responsive">
-			<table class="table">
-  			<thead>
-  				<tr>
-		        <th>#</th>
-		        <th>Judul</th>
-		        <th>Tanggal</th>
-  				</tr>
-  			</thead>
-  			<tbody>
-    			<tr>
-          <?php $no=1?>
-		       @foreach($blog as $key => $value)
+      <table class="table">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Judul</th>
+            <th>Tanggal</th>
+          </tr>
+        </thead>
+        <tbody>
+          <?php $no=1; ?>
+          @foreach($blog as $key => $value)
             <tr>
               <td>{{$no++}}</td>
               <td>{{ $value->blog_title }}</td>
@@ -48,14 +47,12 @@
                   <a href="{{Url('/admin/deletepost/'.$value->blog_id)}}"><button type="button" class="btn btn-danger btn-sm"/>Delete</button></a>
               </td>
             </tr>
-            @endforeach
-    			</tr>
-  			</tbody>
-			 </table>
+          @endforeach
+        </tbody>
+      </table>			
 		</div>
-	</div>
+  </div>
 </div>
-<br>
 </div>
 <br>
 </div>
