@@ -27,3 +27,6 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/admin/lihatpost','BlogController@lihat');
 Route::get('/admin/tambahpost','BlogController@tambah');
 Route::post('/admin/insertpost','BlogController@submitTambah');
+Route::get('/admin/editpost/{id}','BlogController@edit');
+Route::post('/admin/updatepost/{id}','BlogController@submitEdit');
+Route::post('/admin/deletepost/{id}','BlogController@submitDelete');
