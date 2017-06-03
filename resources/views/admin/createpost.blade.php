@@ -15,6 +15,10 @@
         {{Form::label('title', 'Title')}}
         {{Form::text('title',null,array('class' => 'form-control', 'placeholder'=>'Title', 'name'=>'title-blog'))}}
         </div>
+		<div class="form-group">
+		{{Form::label('title', 'Picture')}}
+        {{Form::file('title',null,array('class' => 'form-control', 'name'=>'blog_picture'))}}
+        </div>
         <div class="form-group">
         {{Form::label('body', 'Content')}}
         <textarea name="content-blog" id="summernote"><p>Hello Summernote</p></textarea>
