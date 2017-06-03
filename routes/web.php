@@ -14,19 +14,15 @@ Auth::routes();
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('/contact', function () {
-	return view('contact.index');
-});
-Route::get('/about', function () {
-	return view('about.index');
-});
 
-Route::get('/blog', function () {
-    return view('blog.index');
-});
+Route::get('/contact', 'AboutController@contact' );
+Route::get('/about', 'AboutController@about' );
+Route::get('/index', 'AboutController@home' );
+
 
 /* Admin Routes*/
-// Route::resource('blog','BlogController');
+Route::resource('blog','BlogController');
+Route::get('blog/{blog_id}', 'BLogController@viewdetail');
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/admin/lihatpost','BlogController@lihat');
 Route::get('/admin/tambahpost','BlogController@tambah');
