@@ -19,7 +19,7 @@ class BlogController extends Controller
     {
         $blog = blog::all();
         $post = DB::table('blog')->where('blog_id',$blog_id)->first();
-        return view('blog/detail',compact('blog','post'));
+        return view('/blog/detail',compact('blog','post'));
     }
     public function tambah()
 	{
