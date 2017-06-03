@@ -23,11 +23,11 @@
                                                     <div class="post-cat2"><span
                                                                 style="background: #FFC000;">Traveling</span></div>
                                                     <h2>
-                                                        <a href="post.html"><?php echo $blog['' . $i . '']->blog_title ?></a>
+                                                        <a href="blog/<?php echo $blog['' . $i . '']->blog_id?>"><?php echo $blog['' . $i . '']->blog_title ?></a>
                                                     </h2>
                                                 </div>
-                                                <a href="post.html"><img
-                                                            src="images/blog/<?php echo $blog['' . $i . '']->blog_picture ?>"
+                                                <a href="blog/<?php echo $blog['' . $i . '']->blog_id?>"><img
+                                                            src="/images/blog/<?php echo $blog['' . $i . '']->blog_picture ?>"
                                                             alt=""></a>
                                             </div>
                                             <div class="post-body">
@@ -58,11 +58,11 @@
                                                         <div class="post-cat2"><span style="background: #FFC000;">Traveling</span>
                                                         </div>
                                                         <h2>
-                                                            <a href="post.html"><?php echo $blog['' . $i . '']->blog_title ?></a>
+                                                            <a href="blog/<?php echo $blog['' . $i . '']->blog_id?>"><?php echo $blog['' . $i . '']->blog_title ?></a>
                                                         </h2>
                                                     </div>
-                                                    <a href="post.html"><img
-                                                                src="images/blog/<?php echo $blog['' . $i . '']->blog_picture ?>"
+                                                    <a href="blog/<?php echo $blog['' . $i . '']->blog_id?>"><img
+                                                                src="/images/blog/<?php echo $blog['' . $i . '']->blog_picture ?>"
                                                                 alt=""></a>
                                                 </div>
                                                 <div class="post-body">
@@ -78,7 +78,7 @@
                                                         <?php echo str_limit($blog['' . $i . '']->blog_content, 100)?>
                                                     </p>
                                                 </div>
-                                                <div class="read-more"><a href="post.html">read more</a></div>
+                                                <div class="read-more"><a href="blog/<?php echo $blog['' . $i . '']->blog_id?>">read more</a></div>
                                             </div>
                                         </div>
                                     @endif
@@ -94,11 +94,11 @@
                                                         <div class="post-cat2"><span style="background: #FFC000;">Traveling</span>
                                                         </div>
                                                         <h2>
-                                                            <a href="post.html"><?php echo $blog['' . $i . '']->blog_title ?></a>
+                                                            <a href="blog/<?php echo $blog['' . $i . '']->blog_id?>"><?php echo $blog['' . $i . '']->blog_title ?></a>
                                                         </h2>
                                                     </div>
-                                                    <a href="post.html"><img
-                                                                src="images/blog/<?php echo $blog['' . $i . '']->blog_picture ?>"
+                                                    <a href="blog/<?php echo $blog['' . $i . '']->blog_id?>"><img
+                                                                src="/images/blog/<?php echo $blog['' . $i . '']->blog_picture ?>"
                                                                 alt=""></a>
                                                 </div>
                                                 <div class="post-body">
@@ -114,7 +114,7 @@
                                                         <?php echo str_limit($blog['' . $i . '']->blog_content, 100)?>
                                                     </p>
                                                 </div>
-                                                <div class="read-more"><a href="post.html">read more</a></div>
+                                                <div class="read-more"><a href="blog/<?php echo $blog['' . $i . '']->blog_id?>">read more</a></div>
                                             </div>
                                         </div>
                                     @endif

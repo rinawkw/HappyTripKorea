@@ -10,14 +10,14 @@
     <link rel="icon" href="images/fav3.png">
     <title>Happy Trip Korea</title>
     <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/font-awesome.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-    <link href="css/shortcodes.css" rel="stylesheet">
-    <link href="css/style-wp.css" rel="stylesheet">
-    <link href="css/owl.carousel.css" rel="stylesheet">
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/font-awesome.css" rel="stylesheet">
+    <link href="/css/style.css" rel="stylesheet">
+    <link href="/css/shortcodes.css" rel="stylesheet">
+    <link href="/css/style-wp.css" rel="stylesheet">
+    <link href="/css/owl.carousel.css" rel="stylesheet">
     <!-- only for demo -->
-    <link href="css/demo-settings.css" rel="stylesheet">
+    <link href="/css/demo-settings.css" rel="stylesheet">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -48,10 +48,10 @@
     <!-- header (logo section) -->
     <header class="header">
         <div class="container" style="width: 200px; display: block; margin-left: auto; margin-right: auto">
-            <div style="width: 150px;" class="logo"><a href="index.html"><img id="logo" src="images/fav2.png" alt="logo"></a></div>
+            <div style="width: 150px;" class="logo"><a href="index.html"><img id="logo" src="/images/fav2.png" alt="logo"></a></div>
            {{--<h1>Haute Couture</h1>--}}
                 {{--<div class="description">black is new red</div>--}}
-            <div class="ad-728x90"><a href="/index"><img src="images/ad728x90.png" alt="ad728x90"></a></div>
+            <div class="ad-728x90"><a href="/index"><img src="/images/ad728x90.png" alt="ad728x90"></a></div>
         </div>
     </header>
     <!-- end header (logo section) -->
@@ -104,28 +104,28 @@
                     <div class="ot-footer-widget">
                         <h4 class="footer-title"><span>Temukan Kami di</span></h4>
                         <div class="ot-social-button">
-                            <a href="#"><img src="images/line.png" alt=""></a>
+                            <a href="#"><img src="/images/line.png" alt=""></a>
                             <div class="ot-social-details">
                                 <div class="ot-social-count">Line</div>
                                 <div class="ot-social-type">@happytripkorea</div>
                             </div>
                         </div>
                         <div class="ot-social-button">
-                            <a href="https://www.instagram.com/happytripkorea/"><img src="images/instagram.png" alt=""></a>
+                            <a href="https://www.instagram.com/happytripkorea/"><img src="/images/instagram.png" alt=""></a>
                             <div class="ot-social-details">
                                 <div class="ot-social-count">Instagram</div>
                                 <div class="ot-social-type">@happytripkorea</div>
                             </div>
                         </div>
                         <div class="ot-social-button">
-                            <a href="#"><img src="images/whatsapp.png" alt=""></a>
+                            <a href="#"><img src="/images/whatsapp.png" alt=""></a>
                             <div class="ot-social-details">
                                 <div class="ot-social-count">WA</div>
                                 <div class="ot-social-type">081916641251</div>
                             </div>
                         </div>
                         <div class="ot-social-button">
-                            <a href="https://www.facebook.com/happytripkorea/"><img src="images/facebook.png" alt=""></a>
+                            <a href="https://www.facebook.com/happytripkorea/"><img src="/images/facebook.png" alt=""></a>
                             <div class="ot-social-details">
                                 <div class="ot-social-count">Facebook</div>
                                 <div class="ot-social-type">Happy Trip Korea</div>
@@ -144,7 +144,7 @@
                         <!-- article post -->
                         <article class="widget-post">
                             <div class="post-image">
-                                <a href="post.html"><img src="images/blog/<?php echo $blog['' . $blog->count()-1 . '']->blog_picture ?>" alt=""></a>
+                                <a href="post.html"><img src="/images/blog/<?php echo $blog['' . $blog->count()-1 . '']->blog_picture ?>" alt=""></a>
                             </div>
                             <div class="post-body">
                                 <h2><a href="post.html"><?php echo $blog['' . $blog->count()-1 . '']->blog_title ?></a></h2>
@@ -162,7 +162,7 @@
                         <!-- article post -->
                         <article class="widget-post">
                             <div class="post-image">
-                                <a href="post.html"><img src="images/blog/<?php echo $blog['' . $blog->count()-2 . '']->blog_picture ?>" alt=""></a>
+                                <a href="post.html"><img src="/images/blog/<?php echo $blog['' . $blog->count()-2 . '']->blog_picture ?>" alt=""></a>
                             </div>
                             <div class="post-body">
                                 <h2><a href="post.html"><?php echo $blog['' . $blog->count()-2 . '']->blog_title ?></a>
@@ -181,7 +181,7 @@
                         <!-- article post -->
                         <article class="widget-post">
                             <div class="post-image">
-                                <a href="post.html"><img src="images/blog/<?php echo $blog['' . $blog->count()-3 . '']->blog_picture ?>" alt=""></a>
+                                <a href="post.html"><img src="/images/blog/<?php echo $blog['' . $blog->count()-3 . '']->blog_picture ?>" alt=""></a>
                             </div>
                             <div class="post-body">
                                 <h2><a href="post.html"><?php echo $blog['' . $blog->count()-3 . '']->blog_title ?></a></h2>
@@ -211,11 +211,11 @@
 <!-- Bootstrap core and theme JavaScript
     ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
-<script type="text/javascript" src="js/jquery-latest.min.js"></script>
-<script type="text/javascript" src="js/bootstrap.min.js"></script>
-<script type="text/javascript" src="js/demo-settings.js"></script>
-<script type="text/javascript" src="js/owl.carousel.min.js"></script>
-<script type="text/javascript" src="js/theia-sticky-sidebar.js"></script>
-<script type="text/javascript" src="js/themescripts.js"></script>
+<script type="text/javascript" src="/js/jquery-latest.min.js"></script>
+<script type="text/javascript" src="/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="/js/demo-settings.js"></script>
+<script type="text/javascript" src="/js/owl.carousel.min.js"></script>
+<script type="text/javascript" src="/js/theia-sticky-sidebar.js"></script>
+<script type="text/javascript" src="/js/themescripts.js"></script>
 </body>
 </html>

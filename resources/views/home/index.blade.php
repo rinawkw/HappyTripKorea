@@ -10,47 +10,37 @@
 				<div class="row row-slider-gutter">
 					<div class="col-md-4 slider-item-small">
 						<figure>
-							<a href="post.html"><img src="images/demo/1200x800-6.jpg" alt=""></a>
+							<img src="images/trips2.jpg" alt="">
 							<figcaption>
-								<h2><a href="post.html">Selfie Fables - Disney Alternative Art Illustrations by Simona Bonafini</a></h2>
-								<div class="post-meta">
-									<span>1. april 2015</span> <span><i class="fa fa-comment-o"></i> 5</span> <span><i class="fa fa-eye"></i> 54</span>
-								</div>
+								<h2>Witness beautiful scene in Korea with your own eyes.</h2>
 							</figcaption>
 						</figure>
 					</div>
 					<div class="col-md-4 slider-item-small">
 						<figure>
-							<a href="post.html"><img src="images/demo/1200x800-3.jpg" alt=""></a>
+							<img src="images/trips3.jpg" alt="">
 							<figcaption>
-								<h2><a href="post.html">Make Stories Come Alive with Jodi Harvey-Brown Book Sculpture</a></h2>
-								<div class="post-meta">
-									<span>16. april 2015</span> <span><i class="fa fa-comment-o"></i> 3</span> <span><i class="fa fa-eye"></i> 453</span>
-								</div>
+								<h2>Make beautiful stories with your friends.</h2>
 							</figcaption>
 						</figure>
 					</div>
 					<div class="col-md-4 slider-item-small">
 						<figure>
-							<a href="post.html"><img src="images/demo/1200x800-5.jpg" alt=""></a>
+							<img src="images/trips4.jpg" alt="">
 							<figcaption>
-								<h2><a href="post.html">Illustrator Turns Your Deepest Fears Into Cute Comics</a></h2>
-								<div class="post-meta">
-									<span>27. april 2015</span> <span><i class="fa fa-comment-o"></i> 23</span> <span><i class="fa fa-eye"></i> 123</span>
-								</div>
+								<h2>Ketemu dan foto bareng Oppa Korea!</h2>
 							</figcaption>
 						</figure>
 					</div>
 				</div>
 				<div class="row row-slider-gutter">
-					<div class="col-md-12 slider-item-large">
+					<div class="col-md-1 slider-item-large"></div>
+					<div class="col-md-10 slider-item-large">
 						<figure>
-							<a href="post.html"><img src="images/demo/1200x800-1.jpg" alt=""></a>
+							<img src="images/korea.jpg" alt="">
 							<figcaption>
-								<h2><a href="post.html">Amazing Game Of Thrones Illustrations By Ivan Belikov</a></h2>
-								<div class="post-meta">
-									<span>27. april 2015</span> <span><i class="fa fa-comment-o"></i> 23</span> <span><i class="fa fa-eye"></i> 123</span>
-								</div>
+								<h2>Let's go to Korea with Happy Trip Korea!</h2>
+
 							</figcaption>
 						</figure>
 					</div>
@@ -63,23 +53,22 @@
 	<section class="ot-section-b">
 		<div class="container">
 			<!-- latest posts section -->
-			<h4 class="section-title"><span>The large grid posts</span>Featured Posts</h4>
+			<h4 class="section-title">TRIP INFO</h4>
 			<div class="row">
 				<div class="col-md-4 col-sm-4">
 					<div class="grid-large">
 						<div class="post-image">
-							<div class="review"><span class="score">70</span><span class="percent">%</span></div>
 							<div class="post-title">
 								<div class="gl-text-hover">
-									<p>To set numerous transitions at once, set each individual group of transition values, then use a comma to separate each additional group of transition values.</p>
-									<div class="read-more"><a href="post.html">read more</a></div>
+									<p>Cuuss ikutan Autumn Season,
+										26-30 Oktober 2017
+										atau
+										10-14 November 2017.
+										Peserta Terbatas!</p>
 								</div>
-								<div class="gl-title-hover">
-									<div class="post-cat2"><span>Cinema</span></div>
-									<h2><a href="post.html">Make Stories Come Alive with Jodi Harvey-Brown Book</a></h2>
-								</div>
+
 							</div>
-							<a href="post.html"><img src="images/demo/720x1080-3.jpg" alt=""></a>
+							<img src="images/nexttrips.jpg" alt="">
 						</div>
 					</div>
 				</div>
@@ -88,38 +77,46 @@
 						<div class="post-image">
 							<div class="post-title">
 								<div class="gl-text-hover">
-									<p>To set numerous transitions at once, set each individual group of transition values, then use a comma to separate each additional group of transition values.</p>
-									<div class="read-more"><a href="post.html">read more</a></div>
-								</div>
-								<div class="gl-title-hover">
-									<div class="post-cat2"><span>Cinema</span></div>
-									<h2><a href="post.html">Amazing Game Of Thrones Illustrations By Ivan Belikov</a></h2>
+									<p>SIGHTSEEING KOREA 5D3N
+										• 16 - 20 OCTOBER 2017
+										• 21 - 25 OCTOBER 2017
+										• 04 - 08 DECEMBER 2017
+										• 11 - 15 DECEMBER 2017</p>
 								</div>
 							</div>
-							<a href="post.html"><img src="images/demo/720x1080-4.jpg" alt=""></a>
+							<img src="images/next_trip2.jpg" alt="">
 						</div>
 					</div>
 				</div>
 				<div class="col-md-4 col-sm-4">
 					<div class="grid-large">
 						<div class="post-image">
-							<div class="review"><span class="score">70</span><span class="percent">%</span></div>
 							<div class="post-title">
 								<div class="gl-text-hover">
-									<p>To set numerous transitions at once, set each individual group of transition values.</p>
-									<div class="read-more"><a href="post.html">read more</a></div>
+									<p>Berikut trip yg available :
+										● Winter Wonderland Lighting Festival
+										20-26 Januari 2018
+										ALL IN - IDR 13.000.000
+										DP IDR 1.300.000
+										Cicilan 9X IDR 1.300.000/bulan
+										.
+										● Beautiful Spring
+										Cherry Blossom & Everland Tulip Festival
+										6-12 April 2018
+										ALL IN - IDR 13.500.000
+										DP IDR 1.500.000
+										Cicilan 12X IDR 1.000.000/bulan</p>
 								</div>
-								<div class="gl-title-hover">
-									<div class="post-cat2"><span style="background-color: #DE6069">Graphics</span></div>
-									<h2><a href="post.html">Illustrator Turns Your Deepest Fears Into Cute Comics</a></h2>
-								</div>
+
 							</div>
-							<a href="post.html"><img src="images/demo/720x1080-2.jpg" alt=""></a>
+							<img src="images/offer.jpg" alt="">
 						</div>
 					</div>
 				</div>
+
 			</div>
 		</div>
+		<br>
 		<!-- container -->
 	</section>
 @stop
