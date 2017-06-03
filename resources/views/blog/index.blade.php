@@ -23,10 +23,10 @@
                                                     <div class="post-cat2"><span
                                                                 style="background: #FFC000;">Traveling</span></div>
                                                     <h2>
-                                                        <a href="post.html"><?php echo $blog['' . $i . '']->blog_title ?></a>
+                                                        <a href="blog/<?php echo $blog['' . $i . '']->blog_id?>"><?php echo $blog['' . $i . '']->blog_title ?></a>
                                                     </h2>
                                                 </div>
-                                                <a href="post.html"><img
+                                                <a href="blog/<?php echo $blog['' . $i . '']->blog_id?>"><img
                                                             src="/images/blog/<?php echo $blog['' . $i . '']->blog_picture ?>"
                                                             alt=""></a>
                                             </div>
@@ -58,10 +58,10 @@
                                                         <div class="post-cat2"><span style="background: #FFC000;">Traveling</span>
                                                         </div>
                                                         <h2>
-                                                            <a href="post.html"><?php echo $blog['' . $i . '']->blog_title ?></a>
+                                                            <a href="blog/<?php echo $blog['' . $i . '']->blog_id?>"><?php echo $blog['' . $i . '']->blog_title ?></a>
                                                         </h2>
                                                     </div>
-                                                    <a href="post.html"><img
+                                                    <a href="blog/<?php echo $blog['' . $i . '']->blog_id?>"><img
                                                                 src="/images/blog/<?php echo $blog['' . $i . '']->blog_picture ?>"
                                                                 alt=""></a>
                                                 </div>
@@ -94,10 +94,10 @@
                                                         <div class="post-cat2"><span style="background: #FFC000;">Traveling</span>
                                                         </div>
                                                         <h2>
-                                                            <a href="post.html"><?php echo $blog['' . $i . '']->blog_title ?></a>
+                                                            <a href="blog/<?php echo $blog['' . $i . '']->blog_id?>"><?php echo $blog['' . $i . '']->blog_title ?></a>
                                                         </h2>
                                                     </div>
-                                                    <a href="post.html"><img
+                                                    <a href="blog/<?php echo $blog['' . $i . '']->blog_id?>"><img
                                                                 src="/images/blog/<?php echo $blog['' . $i . '']->blog_picture ?>"
                                                                 alt=""></a>
                                                 </div>
