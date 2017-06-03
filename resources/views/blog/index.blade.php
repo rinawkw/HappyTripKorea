@@ -26,7 +26,7 @@
                                                         <a href="blog/<?php echo $blog['' . $i . '']->blog_id?>"><?php echo $blog['' . $i . '']->blog_title ?></a>
                                                     </h2>
                                                 </div>
-                                                <a href="blog/<?php echo $blog['' . $i . '']->blog_id?>"><img
+                                                <a href="blog/<?php echo $blog['' . $i . '']->blog_id?>"><img height="500" width="700"
                                                             src="/images/blog/<?php echo $blog['' . $i . '']->blog_picture ?>"
                                                             alt=""></a>
                                             </div>
@@ -61,7 +61,7 @@
                                                             <a href="blog/<?php echo $blog['' . $i . '']->blog_id?>"><?php echo $blog['' . $i . '']->blog_title ?></a>
                                                         </h2>
                                                     </div>
-                                                    <a href="blog/<?php echo $blog['' . $i . '']->blog_id?>"><img
+                                                    <a href="blog/<?php echo $blog['' . $i . '']->blog_id?>"><img height="200" width="500"
                                                                 src="/images/blog/<?php echo $blog['' . $i . '']->blog_picture ?>"
                                                                 alt=""></a>
                                                 </div>
@@ -97,7 +97,7 @@
                                                             <a href="blog/<?php echo $blog['' . $i . '']->blog_id?>"><?php echo $blog['' . $i . '']->blog_title ?></a>
                                                         </h2>
                                                     </div>
-                                                    <a href="blog/<?php echo $blog['' . $i . '']->blog_id?>"><img
+                                                    <a href="blog/<?php echo $blog['' . $i . '']->blog_id?>"><img height="50" width="700"
                                                                 src="/images/blog/<?php echo $blog['' . $i . '']->blog_picture ?>"
                                                                 alt=""></a>
                                                 </div>

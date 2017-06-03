@@ -35,11 +35,8 @@
             </nav>
             <!-- end main menu -->
             <span class="top-bar-socials">
-					<a href="#" target="_blank"><i class="fa fa-facebook"></i></a>
-					<a href="#" target="_blank"><i class="fa fa-twitter"></i></a>
-					<a href="#" target="_blank"><i class="fa fa-instagram"></i></a>
-					<a href="#" target="_blank"><i class="fa fa-google-plus"></i></a>
-					<a href="#" target="_blank"><i class="fa fa-linkedin"></i></a>
+					<a href="https://www.facebook.com/happytripkorea/" target="_blank"><i class="fa fa-facebook"></i></a>
+					<a href="https://www.instagram.com/happytripkorea/" target="_blank"><i class="fa fa-instagram"></i></a>
 					</span>
         </div>
         <!-- end container -->
