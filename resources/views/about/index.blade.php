@@ -20,21 +20,50 @@
 
 										<div class="column12">
 											<h4>ABOUT US</h4>
-											<p>Happy Trip Korea adalah Trip Korea ala Backpacker dengan Public Transportation! Kami menawarkan 2 pilihan Tour yaitu : <br>
-												PRIVATE TOUR<br>
-												● Tour dengan keluarga / teman / kolega sendiri dengan minimal 5 person per batch.<br>
-												● Custom sendiri tanggal serta destinasi Tour kalian di Korea (atau bisa dibantu oleh HTK team jika mau).<br>
-												● Tersedia 2 jenis yaitu Land Tour (exclude ticket, lunch & dinner, biaya visa), dan All In (exclude lunch & dinner, biaya visa).<br>
-												Keuntungan PRIVATE TOUR :<br>
-												● Waktu yang lebih fleksibel (disesuaikan dengan kebutuhan kalian).<br>
-												● Destinasi tour yang lebih sesuai dengan keinginan kalian.<br>
+											<p>Happy Trip Korea adalah Trip Korea ala Backpacker dengan Public Transportation! <br>Kami menawarkan 2 pilihan Tour yaitu : <br>
+											<h5>PRIVATE TOUR</h5>
+											<ul>
+												<li>
+													Tour dengan keluarga / teman / kolega sendiri dengan minimal 5 person per batch.
+												</li>
+												<li>
+													Custom sendiri tanggal serta destinasi Tour kalian di Korea (atau bisa dibantu oleh HTK team jika mau).
+												</li>
+												<li>
+													Tersedia 2 jenis yaitu Land Tour (exclude ticket, lunch & dinner, biaya visa), dan All In (exclude lunch & dinner, biaya visa).
+												</li>
+											</ul>
+											<h5>Keuntungan PRIVATE TOUR :</h5>
+											<ul>
+												<li>
+													Waktu yang lebih fleksibel (disesuaikan dengan kebutuhan kalian).
+												</li>
+												<li>
+													Destinasi tour yang lebih sesuai dengan keinginan kalian.
+												</li>
+											</ul>
+											<h5>REGULAR TOUR:</h5>
+											<ul>
+												<li>
+													Tour bersama grup dengan anggota 5 - 10 person per keberangkatan.
+												</li>
+												<li>
+													Tanggal & destinasi fix (sudah disediakan oleh HTK Team).
+												</li>
+												<li>
+													Tersedia 2 jenis yaitu Land Tour (exclude ticket, lunch & dinner, biaya visa), dan All In (exclude lunch & dinner, biaya visa).
+												</li>
+											</ul>
+											<h5>Keuntungan REGULAR TOUR :</h5>
+											<ul>
+												<li>
+													Waktu & destinasi yang telah diatur oleh HTK team jadi gak perlu pusing atau ribet.
+												</li>
+												<li>
+													Tempat yang dikunjungi adalah destinasi yang akan memberikan pengalaman terbaik.
+												</li>
+											</ul>
 
-												REGULAR TOUR<br>● Tour bersama grup dengan anggota 5 - 10 person per keberangkatan.<br>
-												● Tanggal & destinasi fix (sudah disediakan oleh HTK Team).<br>
-												● Tersedia 2 jenis yaitu Land Tour (exclude ticket, lunch & dinner, biaya visa), dan All In (exclude lunch & dinner, biaya visa).<br>
-												Kelebihan REGULAR TOUR :<br>
-												● Waktu & destinasi yang telah diatur oleh HTK team jadi gak perlu pusing atau ribet.<br>
-												● Tempat yang dikunjungi adalah destinasi yang akan memberikan pengalaman terbaik.</p>
 										</div>
 									</div>
 								</article>
