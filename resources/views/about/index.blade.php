@@ -19,8 +19,8 @@
 									<div class="paragraph-row">
 
 										<div class="column12">
-											<h4>History</h4>
-											<p>Hai Happy Trip Korea adalah Trip Korea ala Backpacker dengan Public Transportation! Kami menawarkan 2 pilihan Tour yaitu : <br>
+											<h4>ABOUT US</h4>
+											<p>Happy Trip Korea adalah Trip Korea ala Backpacker dengan Public Transportation! Kami menawarkan 2 pilihan Tour yaitu : <br>
 												PRIVATE TOUR<br>
 												● Tour dengan keluarga / teman / kolega sendiri dengan minimal 5 person per batch.<br>
 												● Custom sendiri tanggal serta destinasi Tour kalian di Korea (atau bisa dibantu oleh HTK team jika mau).<br>
