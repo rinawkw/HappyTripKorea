@@ -11,7 +11,7 @@
 						<div class="theiaStickySidebar">
 							<div class="content ot-article">
 								<div class="article-image">
-									<img src="htk_logo.jpg" alt="">
+									<img src="images/htk_logo.jpg" alt="">
 								</div>
 								<h2>About Happy Trip Korea</h2>
 								<article class="shortcode-content">
