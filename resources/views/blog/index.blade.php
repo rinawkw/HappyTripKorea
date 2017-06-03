@@ -78,7 +78,7 @@
                                                         <?php echo str_limit($blog['' . $i . '']->blog_content, 100)?>
                                                     </p>
                                                 </div>
-                                                <div class="read-more"><a href="post.html">read more</a></div>
+                                                <div class="read-more"><a href="blog/<?php echo $blog['' . $i . '']->blog_id?>">read more</a></div>
                                             </div>
                                         </div>
                                     @endif
@@ -114,7 +114,7 @@
                                                         <?php echo str_limit($blog['' . $i . '']->blog_content, 100)?>
                                                     </p>
                                                 </div>
-                                                <div class="read-more"><a href="post.html">read more</a></div>
+                                                <div class="read-more"><a href="blog/<?php echo $blog['' . $i . '']->blog_id?>">read more</a></div>
                                             </div>
                                         </div>
                                     @endif
