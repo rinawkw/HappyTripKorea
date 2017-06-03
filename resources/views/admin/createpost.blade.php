@@ -9,7 +9,7 @@
     <div class="box">
       <!-- /.box-header -->
       <div class="box-body pad">
-        {{Form::open(['url'=>'/admin/insertpost'])}}
+        {{Form::open(['url'=>'/admin/insertpost', 'files'=> true])}}
         <div class="box-body">
         <div class="form-group">
         {{Form::label('title', 'Title')}}
@@ -17,7 +17,7 @@
         </div>
 		<div class="form-group">
 		{{Form::label('title', 'Picture')}}
-        {{Form::file('title',null,array('class' => 'form-control', 'name'=>'blog_picture'))}}
+        {{Form::file('blog_picture',null,array('class' => 'form-control'))}}
         </div>
         <div class="form-group">
         {{Form::label('body', 'Content')}}

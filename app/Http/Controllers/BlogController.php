@@ -25,9 +25,13 @@ class BlogController extends Controller
 		$blog = new blog();
 		$blog->blog_title = $request->input('title-blog');
 		$blog->blog_content = $request->input('content-blog');
-		$blog->blog_picture= "";
+		$imageName = time().'.'.$request->file('blog_picture')->getClientOriginalExtension();
+		$blog->blog_picture= $imageName;
 		$blog->save();
-		$blog = blog::all();
-		return view('/admin/lihatpost', compact('blog'));
+		
+		$request->file('blog_picture')->move(
+			base_path() . '/public/images/blog/', $imageName
+		);
+		return redirect('admin/lihatpost');
 	}
 }
