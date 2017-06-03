@@ -10,7 +10,7 @@
 				<div class="row row-slider-gutter">
 					<div class="col-md-4 slider-item-small">
 						<figure>
-							<a href="post.html"><img src="images/trips2.jpg" alt=""></a>
+							<img src="images/trips2.jpg" alt="">
 							<figcaption>
 								<h2>Witness beautiful scene in Korea with your own eyes.</h2>
 							</figcaption>
@@ -18,7 +18,7 @@
 					</div>
 					<div class="col-md-4 slider-item-small">
 						<figure>
-							<a href="post.html"><img src="images/trips3.jpg" alt=""></a>
+							<img src="images/trips3.jpg" alt="">
 							<figcaption>
 								<h2>Make beautiful stories with your friends.</h2>
 							</figcaption>
@@ -26,7 +26,7 @@
 					</div>
 					<div class="col-md-4 slider-item-small">
 						<figure>
-							<a href="post.html"><img src="images/trips4.jpg" alt=""></a>
+							<img src="images/trips4.jpg" alt="">
 							<figcaption>
 								<h2>Ketemu dan foto bareng Oppa Korea!</h2>
 							</figcaption>
@@ -37,7 +37,7 @@
 					<div class="col-md-1 slider-item-large"></div>
 					<div class="col-md-10 slider-item-large">
 						<figure>
-							<a href="post.html"><img src="images/korea.jpg" alt=""></a>
+							<img src="images/korea.jpg" alt="">
 							<figcaption>
 								<h2>Let's go to Korea with Happy Trip Korea!</h2>
 
