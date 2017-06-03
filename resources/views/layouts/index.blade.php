@@ -144,7 +144,7 @@
                         <!-- article post -->
                         <article class="widget-post">
                             <div class="post-image">
-                                <a href="post.html"><img src="<?php echo $blog['' . $blog->count()-1 . '']->blog_picture ?>" alt=""></a>
+                                <a href="post.html"><img src="images/blog/<?php echo $blog['' . $blog->count()-1 . '']->blog_picture ?>" alt=""></a>
                             </div>
                             <div class="post-body">
                                 <h2><a href="post.html"><?php echo $blog['' . $blog->count()-1 . '']->blog_title ?></a></h2>
@@ -162,7 +162,7 @@
                         <!-- article post -->
                         <article class="widget-post">
                             <div class="post-image">
-                                <a href="post.html"><img src="<?php echo $blog['' . $blog->count()-2 . '']->blog_picture ?>" alt=""></a>
+                                <a href="post.html"><img src="images/blog/<?php echo $blog['' . $blog->count()-2 . '']->blog_picture ?>" alt=""></a>
                             </div>
                             <div class="post-body">
                                 <h2><a href="post.html"><?php echo $blog['' . $blog->count()-2 . '']->blog_title ?></a>
@@ -181,7 +181,7 @@
                         <!-- article post -->
                         <article class="widget-post">
                             <div class="post-image">
-                                <a href="post.html"><img src="<?php echo $blog['' . $blog->count()-3 . '']->blog_picture ?>" alt=""></a>
+                                <a href="post.html"><img src="images/blog/<?php echo $blog['' . $blog->count()-3 . '']->blog_picture ?>" alt=""></a>
                             </div>
                             <div class="post-body">
                                 <h2><a href="post.html"><?php echo $blog['' . $blog->count()-3 . '']->blog_title ?></a></h2>
