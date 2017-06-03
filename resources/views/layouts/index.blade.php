@@ -51,7 +51,7 @@
             <div style="width: 150px;" class="logo"><a href="index.html"><img id="logo" src="images/fav2.png" alt="logo"></a></div>
            {{--<h1>Haute Couture</h1>--}}
                 {{--<div class="description">black is new red</div>--}}
-            <div class="ad-728x90"><a href="index.html"><img src="images/ad728x90.png" alt="ad728x90"></a></div>
+            <div class="ad-728x90"><a href="/index"><img src="images/ad728x90.png" alt="ad728x90"></a></div>
         </div>
     </header>
     <!-- end header (logo section) -->
@@ -84,10 +84,10 @@
     <footer class="footer">
         <div class="footer-menu">
             <ul class="menu">
-                <li><a href="about.html">Home</a></li>
-                <li><a href="index-list.html">Blog</a></li>
-                <li><a href="contact.html">Tentang Kami</a></li>
-                <li><a href="contact.html">Hubungi</a></li>
+                <li><a href="/index">Home</a></li>
+                <li><a href="/blog">Blog</a></li>
+                <li><a href="/about">Tentang Kami</a></li>
+                <li><a href="/contact">Hubungi</a></li>
             </ul>
         </div>
         <div class="container">
@@ -95,11 +95,8 @@
                 <div class="col-md-4 col-sm-4">
                     <div class="ot-footer-widget">
                         <h4 class="footer-title"><span>Tentang Happy Trip Korea</span></h4>
-                        <p>Maecenas euismod magna augue, et imperdiet nisl efficitur nec. Nunc non risus a diam tempor
-                            ornare. Suspendisse molestie nisi a euismod egestas. Integer tristique mauris in laoreet
-                            iaculis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
-                            Curae;</p>
-                        <p>3422 Street, Barcelona 432, Spain,<br>New Building North, 15th Floor</p>
+                        <blockquote class="style-2">Tour Agency yang menyediakan paket perjalan liburan ke Korea murah tapi berkualitas untuk para chinggu. Instalment Available! </blockquote>
+
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-4">
@@ -107,47 +104,35 @@
                     <div class="ot-footer-widget">
                         <h4 class="footer-title"><span>Temukan Kami di</span></h4>
                         <div class="ot-social-button">
-                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <a href="#"><img src="images/line.png" alt=""></a>
                             <div class="ot-social-details">
-                                <div class="ot-social-count">6k</div>
-                                <div class="ot-social-type">Likes</div>
+                                <div class="ot-social-count">Line</div>
+                                <div class="ot-social-type">@happytripkorea</div>
                             </div>
                         </div>
                         <div class="ot-social-button">
-                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="https://www.instagram.com/happytripkorea/"><img src="images/instagram.png" alt=""></a>
                             <div class="ot-social-details">
-                                <div class="ot-social-count">13k</div>
-                                <div class="ot-social-type">Followers</div>
+                                <div class="ot-social-count">Instagram</div>
+                                <div class="ot-social-type">@happytripkorea</div>
                             </div>
                         </div>
                         <div class="ot-social-button">
-                            <a href="#"><i class="fa fa-instagram"></i></a>
+                            <a href="#"><img src="images/whatsapp.png" alt=""></a>
                             <div class="ot-social-details">
-                                <div class="ot-social-count">234</div>
-                                <div class="ot-social-type">Followers</div>
+                                <div class="ot-social-count">WA</div>
+                                <div class="ot-social-type">081916641251</div>
                             </div>
                         </div>
                         <div class="ot-social-button">
-                            <a href="#"><i class="fa fa-google-plus"></i></a>
+                            <a href="https://www.facebook.com/happytripkorea/"><img src="images/facebook.png" alt=""></a>
                             <div class="ot-social-details">
-                                <div class="ot-social-count">987</div>
-                                <div class="ot-social-type">Pople</div>
+                                <div class="ot-social-count">Facebook</div>
+                                <div class="ot-social-type">Happy Trip Korea</div>
                             </div>
                         </div>
-                        <div class="ot-social-button">
-                            <a href="#"><i class="fa fa-youtube"></i></a>
-                            <div class="ot-social-details">
-                                <div class="ot-social-count">34k</div>
-                                <div class="ot-social-type">Subscibers</div>
-                            </div>
-                        </div>
-                        <div class="ot-social-button">
-                            <a href="#"><i class="fa fa-soundcloud"></i></a>
-                            <div class="ot-social-details">
-                                <div class="ot-social-count">4k</div>
-                                <div class="ot-social-type">Subscibers</div>
-                            </div>
-                        </div>
+
+
                         <div class="clearfix"></div>
                     </div>
                     <!-- footer widget end -->
