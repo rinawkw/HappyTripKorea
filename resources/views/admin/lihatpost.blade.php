@@ -26,33 +26,36 @@
  			</div>
 	</div>
 	<div class="container">
-  		<h2>Table</h2>
-  		<div class="table-responsive">
-  			<table class="table">
-    			<thead>
-      				<tr>
-				        <th>#</th>
-				        <th>Judul</th>
-				        <th>Tanggal</th>
-      				</tr>
-    			</thead>
-    			<tbody>
-      			<tr>
-			       @foreach($blog as $key => $value)
-                  <tr>
-                    <td class="text-center">{{ $value->blog_id }}</td>
-                    <td>{{ $value->blog_title }}</td>
-                    <td>{{ $value->created_at }}</td>
-                    <td><a href="{{Url('/admin/detail/'.$value->blog_id)}}"<button type="button" class="btn btn-default btn-sm"/><i class="fa fa-eye"></i> Lihat</button></a></td>
-                  </tr>
-              @endforeach
-      			</tr>
-    			</tbody>
- 			 </table>
-  		</div>
+		<h3>Table</h3>
+		<div class="table-responsive">
+			<table class="table">
+  			<thead>
+  				<tr>
+		        <th>#</th>
+		        <th>Judul</th>
+		        <th>Tanggal</th>
+  				</tr>
+  			</thead>
+  			<tbody>
+    			<tr>
+		       @foreach($blog as $key => $value)
+            <tr>
+              <td>{{ $value->blog_id }}</td>
+              <td>{{ $value->blog_title }}</td>
+              <td>{{ $value->created_at }}</td>
+              <td><a href="{{Url('/admin/editpost/'.$value->blog_id)}}"><button type="button" class="btn btn-default btn-sm"/>Edit</button></a>
+                  <a href="{{Url('/admin/deletepost/'.$value->blog_id)}}"><button type="button" class="btn btn-danger btn-sm"/>Delete</button></a>
+              </td>
+            </tr>
+            @endforeach
+    			</tr>
+  			</tbody>
+			 </table>
+		</div>
 	</div>
 </div>
 <br>
 </div>
 <br>
+</div>
 @stop

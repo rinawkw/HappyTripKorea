@@ -9,19 +9,15 @@
     <div class="box">
       <!-- /.box-header -->
       <div class="box-body pad">
-        {{Form::open(['url'=>'/admin/insertpost', 'files'=> true])}}
+        {{Form::open(['url'=>'/admin/updatepost/'.$blog->blog_id])}}
         <div class="box-body">
         <div class="form-group">
         {{Form::label('title', 'Title')}}
-        {{Form::text('title',null,array('class' => 'form-control', 'placeholder'=>'Title', 'name'=>'title-blog'))}}
-        </div>
-		<div class="form-group">
-		{{Form::label('title', 'Picture')}}
-        {{Form::file('blog_picture',null,array('class' => 'form-control'))}}
+        {{Form::text('title',$blog->blog_title,array('class' => 'form-control', 'placeholder'=> 'Title', 'name'=>'title-blog'))}}
         </div>
         <div class="form-group">
         {{Form::label('body', 'Content')}}
-        <textarea name="content-blog" id="summernote"><p>Hello Summernote</p></textarea>
+        <textarea name="content-blog" id="summernote"><?php echo $blog->blog_content?></textarea>
         </div>
         <div class="form-group">
         {{Form::submit('Publish Post',array('class' => 'btn btn-primary btn-sm'))}} </div>

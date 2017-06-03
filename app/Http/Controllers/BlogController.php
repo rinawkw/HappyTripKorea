@@ -18,17 +18,33 @@ class BlogController extends Controller
 	{
 		return view('/admin/createpost');
 	}
+	public function edit($id){
+		$blog = DB::table('blog')->where('blog_id',$id)->first();
+		return view('/admin/editpost',compact('blog'));
+	}
 	public function lihat(){
-		return view('admin/lihatpost');
+		$blog = blog::all();
+		return view('admin/lihatpost',compact('blog'));
 	}
     public function submitTambah(Request $request)
 	{
 		$blog = new blog();
 		$blog->blog_title = $request->input('title-blog');
 		$blog->blog_content = $request->input('content-blog');
-		$blog->blog_picture= "";
+		$imageName = time().'.'.$request->file('blog_picture')->getClientOriginalExtension();
+		$blog->blog_picture= $imageName;
 		$blog->save();
-		$blog = blog::all();
-		return view('/admin/lihatpost', compact('blog'));
+		return redirect('admin/lihatpost');
+	}
+	public function submitEdit(Request $request, $id){
+		DB::table('blog')->where('blog_id', $id)->update([
+			'blog_title' => $request->input('title-blog'),
+			'blog_content' => $request->input('content-blog'),
+		]);
+		
+		$request->file('blog_picture')->move(
+			base_path() . '/public/images/blog/', $imageName
+		);
+		return redirect('admin/lihatpost');
 	}
 }
