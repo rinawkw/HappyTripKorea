@@ -14,6 +14,13 @@ class BlogController extends Controller
 //        dd($blog[0]);
         return view('blog.index',compact('blog'));
     }
+
+    public function viewdetail($blog_id)
+    {
+        $blog = blog::all();
+        $post = DB::table('blog')->where('blog_id',$blog_id)->first();
+        return view('blog/detail',compact('blog','post'));
+    }
     public function tambah()
 	{
 		return view('/admin/createpost');

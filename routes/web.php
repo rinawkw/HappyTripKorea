@@ -21,8 +21,8 @@ Route::get('/index', 'AboutController@home' );
 
 
 /* Admin Routes*/
-Route::resource('blog','BlogController');
-Route::get('blog/{blog_id}', 'BLogController@viewdetail');
+Route::get('blog','BlogController@index');
+Route::get('/blog/{id}', 'BlogController@viewdetail');
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/admin/lihatpost','BlogController@lihat');
 Route::get('/admin/tambahpost','BlogController@tambah');

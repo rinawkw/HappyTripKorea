@@ -27,7 +27,7 @@
                                                     </h2>
                                                 </div>
                                                 <a href="post.html"><img
-                                                            src="<?php echo $blog['' . $i . '']->blog_picture ?>"
+                                                            src="images/blog/<?php echo $blog['' . $i . '']->blog_picture ?>"
                                                             alt=""></a>
                                             </div>
                                             <div class="post-body">
@@ -43,7 +43,7 @@
                                                     <?php echo str_limit($blog['' . $i . '']->blog_content, 100)?>
                                                 </p>
                                             </div>
-                                            <div class="read-more"><a href="post.html">read more</a></div>
+                                            <div class="read-more"><a href="blog/<?php echo $blog['' . $i . '']->blog_id?>">read more</a></div>
                                         </div>
                                     </div>
                                     @if($i!=0)
@@ -62,7 +62,7 @@
                                                         </h2>
                                                     </div>
                                                     <a href="post.html"><img
-                                                                src="<?php echo $blog['' . $i . '']->blog_picture ?>"
+                                                                src="images/blog/<?php echo $blog['' . $i . '']->blog_picture ?>"
                                                                 alt=""></a>
                                                 </div>
                                                 <div class="post-body">
@@ -98,7 +98,7 @@
                                                         </h2>
                                                     </div>
                                                     <a href="post.html"><img
-                                                                src="<?php echo $blog['' . $i . '']->blog_picture ?>"
+                                                                src="images/blog/<?php echo $blog['' . $i . '']->blog_picture ?>"
                                                                 alt=""></a>
                                                 </div>
                                                 <div class="post-body">
