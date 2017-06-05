@@ -41,7 +41,7 @@
                             <!-- end reviews box -->
                             <div class="ot-next-prev-cont">
                                 <?php
-                                if($post->blog_id!=0){
+                                if($post->blog_id!=1){
                                     $prev = $post->blog_id-1;
                                     if($post->blog_id!=$blog->count()){
                                         $next = $post->blog_id+1;
@@ -52,7 +52,7 @@
                                 }
                                 else{
                                     $prev = 0;
-                                    if($post->blog_id!=$blog->count()-1){
+                                    if($post->blog_id!=$blog->count()){
                                         $next = $post->blog_id+1;
                                     }
                                     else{
@@ -62,13 +62,13 @@
                                 if($prev!=0){
                                     $i = $prev-1;
                                 ?>
-                                <div class="ot-prev"><a href="/blog/<?php echo $i?>"><span><i class="fa fa-chevron-left"></i>Previous article</span><strong><?php echo $blog[''.$i.'']->blog_title?></strong></a></div>
+                                <div class="ot-prev"><a href="/blog/<?php echo $prev?>"><span><i class="fa fa-chevron-left"></i>Previous article</span><strong><?php echo $blog[''.$i.'']->blog_title?></strong></a></div>
                                 <?php }
                                 if($next!=0){
                                     $i = $next-1;?>
 
                                     <div class="ot-prev"><a href=""></a></div>
-                                    <div class="ot-next pull-right"><a href="/blog/<?php echo $i?>"><span>Next article<i class="fa fa-chevron-right"></i></span><strong><?php echo $blog[''.$i.'']->blog_title?></strong></a></div>
+                                    <div class="ot-next pull-right"><a href="/blog/<?php echo $next?>"><span>Next article<i class="fa fa-chevron-right"></i></span><strong><?php echo $blog[''.$i.'']->blog_title?></strong></a></div>
                                 <?php }?>
                             </div>
 
