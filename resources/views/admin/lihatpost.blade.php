@@ -15,16 +15,7 @@
        <i class="fa fa-plus-circle"></i> Tambah Posting</a></div>
 	<div class="col-md-2"> </div>
 <!-- Form Pencarian -->
- 	<div class="col-md-4">
- 			<div class="input-group custom-search-form">
-  				<input type="text" class="form-control" name="search" placeholder="Search...">
-   				<span class="input-group-btn">
-   					<span class="input-group-btn">
-  						<button class="btn btn-default" type="submit"><i class="fa fa-search"></i> Cari</button>
-  					</span>
-  				</span>
- 			</div>
-	</div>
+ 
 	<div class="container">
 		<h3>&nbsp;</h3>
 		<div class="table-responsive">
